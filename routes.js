@@ -40,5 +40,30 @@ function configureRoutes(app, db) {
             res.render('products', context);
         });
     });
+
+    //Ruta para cada producto
+    app.get('/product/:title/:id', function (req, res) {
+
+        var filter = {
+            _id: {
+                $eq: new ObjectId(req.params.id)
+            }
+        };
+        // Get the documents collection
+        const collection = db.collection('products');
+        // Find some documents
+        collection.find(filter).toArray(function (err, docs) {
+            assert.equal(err, null);
+
+            //Objeto contexto
+            var context = docs[0];
+
+            //Renderizar vista
+            console.log(docs[0].img);
+            res.render('ProduSee', context);
+        });
+
+    });
+
 }
 module.exports = configureRoutes;
