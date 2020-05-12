@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "npx nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/Mich1300/taller2web#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.3"
+    "express-handlebars": "^4.0.3",
+    "mongodb": "^3.5.7"
   }
 }
