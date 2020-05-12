@@ -1,0 +1,49 @@
+.content {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.content__products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.shoes{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 190px;
+    height: 380px;
+    background: #7F32FF;
+    color: #fff;
+    -webkit-box-shadow: 9px 10px 16px -10px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 9px 10px 16px -10px rgba(0, 0, 0, 0.53);
+    box-shadow: 9px 10px 16px -10px rgba(0, 0, 0, 0.53);
+
+
+
+    & div {
+        margin-left: 5px;
+        color: #fff;
+
+    }
+
+}
+
+.shoes__link{
+    text-decoration: none;
+    color: black;
+}
+
+.shoes__name{
+    height: 60px;
+    font-size: 15px;
+    font-family: "regular";
+    display: flex;
+    align-items: center;
+}
+
+.shoes__price{
+    font-family: "media";
+}

@@ -1,0 +1,41 @@
+.headernav{  
+    background-color: black;
+    height: 127px;
+}
+
+.headernav__top{
+    height: 81px;
+    display: flex;   
+}
+
+.headernav__bottom{
+    display: flex;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headernav__img{
+    width: 156px;
+    height: 23px;
+    margin: 30px;
+}
+
+.headernav__users{
+    display: flex;
+    margin: auto 30px auto auto;   
+}
+
+.headernav__icons{
+    width: 24px;
+    height: 24px;
+    margin: 0px 10px;
+    justify-content: center;
+}
+
+.headernav__link{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    justify-content: center;
+}

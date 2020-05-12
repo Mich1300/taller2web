@@ -1,0 +1,42 @@
+.mainFooter{
+    width: 100%;
+    height: 70ch ;
+    background-color: white;
+    background-image: url('/images/backfooter.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footertext{
+    display: flex;
+    flex-direction: column;
+}
+
+.footertext__info{
+    text-align: center;
+    margin-top: 160px;
+}
+
+.footertext__input{
+    border: transparent;
+    width: 350px;
+    height: 45px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: yellow;
+}
+
+.footertext__line{
+    width: 450px;
+    height: 1px;
+    background-color: black;
+    margin: -20px auto;  
+}
+
+
+.footertext__socialnetworks{
+   display: flex; 
+   width: 100%;
+   justify-content: center;
+   margin-top: 250px;
+}
