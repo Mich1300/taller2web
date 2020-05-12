@@ -2,18 +2,21 @@
     <div class="content">
         <div class="content__products">
             {{#each products}}
-            <div class="shoes">
-                <a href="" class="shoes__link"></a>
-                <div>
-                    <div class="shoes__name">
+            <div class="clothes">
+                
+                <a href="" class="clothes__link">
+                      <img class="clothes__img" src="{{img}}" alt="">
+
+                <div class="clothes__information">
+                    <div class="clothes__name">
                         <h3>{{title}}</h3>
                     </div>
-                    <div class="shoes__price">
+                    <div class="clothes__price">
                         <h4>${{price}}</h4>
                     </div>
 
                 </div>
-
+                </a>
             </div>
             {{/each}}
         </div>
