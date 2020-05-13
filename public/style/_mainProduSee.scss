@@ -22,21 +22,26 @@ justify-content: center;
 
 .info__etc {
     display: flex;
-    height: 30px;
+    height: 60px;
     align-items: center;
     justify-content: center;
+    color: white;
+    font-size: 15px;
 }
 
 .info__size {
-    width: 24px;
     height: 24px;
-    margin: 0px 10px;
-    justify-content: center;
+    margin: 20px 30px 60px 44% ;
+    align-items: center;
+    & a {
+        margin-left: 50px;
+        
+    }
 }
 
-.info__etc {
-    color: white;
-    font-size: 15px;
+.contenedor {
+    display:flex;
+    flex-direction: column;
 }
 
 .info__etc__boto {

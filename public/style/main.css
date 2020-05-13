@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.everything__bug {
+  width: 100%;
+  height: 150px;
+  background-image: url("/images/FuckUBlue.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+
 .headernav {
   background-color: black;
   height: 127px;
@@ -118,14 +126,6 @@
   margin-left: 15px;
 }
 
-.everything__bug {
-  width: 100%;
-  height: 180px;
-  background-image: url("/images/FuckUBlue.png");
-  background-size: contain;
-  background-repeat: repeat;
-}
-
 .mainFooter {
   width: 100%;
   height: 70ch;
@@ -205,27 +205,37 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 30px;
+  height: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: white;
+  font-size: 15px;
 }
 
 .info__size {
-  width: 24px;
   height: 24px;
-  margin: 0px 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 20px 30px 60px 44%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.info__etc {
-  color: white;
-  font-size: 15px;
+.info__size a {
+  margin-left: 50px;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .info__etc__boto {
@@ -242,5 +252,39 @@
   width: 200px;
   height: 30px;
   background-color: #ea1d24;
+}
+
+.compra {
+  background-image: url("../images/CodBack.png");
+}
+
+.bag__input {
+  color: black;
+  text-align: center;
+}
+
+.bag__input {
+  border: transparent;
+  width: 350px;
+  height: 45px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #ff2626;
+}
+
+.bag__boto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 200px;
+  height: 30px;
+  background-color: #000000;
 }
 /*# sourceMappingURL=main.css.map */
