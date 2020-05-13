@@ -1,0 +1,50 @@
+.produ {
+height: 300px;
+width: 250px;
+margin-top: auto;
+margin: 50px;
+}
+
+.all {
+    background: black;
+}
+
+.info {
+font-family: "media";
+color: white;
+justify-content: center;
+}
+
+.info__nameItem {
+    text-align: center;
+    font-size: 10px;
+}
+
+.info__etc {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__size {
+    width: 24px;
+    height: 24px;
+    margin: 0px 10px;
+    justify-content: center;
+}
+
+.info__etc {
+    color: white;
+    font-size: 15px;
+}
+
+.info__etc__boto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 200px;
+    height: 30px;
+    background-color: #ea1d24;
+}

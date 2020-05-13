@@ -65,5 +65,11 @@ function configureRoutes(app, db) {
 
     });
 
+    //Ruta para el carrito
+
+    app.get('/compra', function (req, res){
+        
+    });
+
 }
 module.exports = configureRoutes;
