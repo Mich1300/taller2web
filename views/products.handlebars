@@ -1,21 +1,33 @@
 <main>
+
+    <nav class="filters">
+
+        <select class="filters__prenda">
+            <option value="" disabled="true" selected="true">Clothes Type</option>
+            <option value="superior garments ">Superior garments </option>
+            <option value="lower prendsas">Lower prendsas</option>
+            <option value="dresses">Dresses</option>
+
+        </select>
+    </nav>
+
     <div class="content">
         <div class="content__products">
             {{#each products}}
             <div class="clothes">
-                
+
                 <a href="/product/{{title}}/{{_id}}" class="clothes__link">
-                      <img class="clothes__img" src="{{img}}" alt="">
+                    <img class="clothes__img" src="{{img}}" alt="">
 
-                <div class="clothes__information">
-                    <div class="clothes__name">
-                        <h3>{{title}}</h3>
-                    </div>
-                    <div class="clothes__price">
-                        <h4>${{price}}</h4>
-                    </div>
+                    <div class="clothes__information">
+                        <div class="clothes__name">
+                            <h3>{{title}}</h3>
+                        </div>
+                        <div class="clothes__price">
+                            <h4>${{price}}</h4>
+                        </div>
 
-                </div>
+                    </div>
                 </a>
             </div>
             {{/each}}

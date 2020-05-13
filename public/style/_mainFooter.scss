@@ -3,7 +3,7 @@
     height: 70ch ;
     background-color: white;
     background-image: url('/images/backfooter.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -32,7 +32,6 @@
     background-color: black;
     margin: -20px auto;  
 }
-
 
 .footertext__socialnetworks{
    display: flex; 

@@ -16,15 +16,31 @@ function configureRoutes(app, db) {
             $and: []
         };
 
+        if (req.query.search) {
+            filters.$and.push({
+                title: {
+                    $regex: new RegExp(req.query.search, 'i')
+                }
+            });
+        }
+
+        if (req.query.type) {
+            filters.$and.push({
+                type: {
+                    $eq: req.query.type
+                }
+            });
+        }
+
+        //Filtros
+        
+        var sortings = {};
+        
+        //Orden
+        
         if (filters.$and.length == 0) {
             delete filters.$and;
         }
-        //Filtros
-
-        var sortings = {};
-
-        //Orden
-
         // Get the documents collection
         const collection = db.collection('products');
         // Find some documents
